@@ -1,3 +1,121 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: lowercase;
+  background: radial-gradient(rgb(169, 235, 237) 0%, rgb(27, 216, 223) 100%);
+  color: #bb2253;
+  cursor: default;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #48484a;
+}
+
+p {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
 h1 {
-  color: blue;
+  color: purple;
+  font-size: 30px;
+  text-align: center;
+  margin: auto 0;
+  font-weight: bolder;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+  list-style: none;
+}
+
+.weather-app {
+  border: 1px solid;
+  border-color: #9149d5;
+  border-width: 15px;
+  padding: 40px 20px 40px 20px;
+  margin: 70px auto;
+  max-width: 550px;
+  border-radius: 25px;
+}
+
+.col-sm-6 {
+  text-align: center;
+}
+
+.col-sm-3 {
+  text-align: center;
+}
+
+.form-control {
+  border-color: purple;
+  color: #a746bf;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.btn-outline-secondary {
+  color: purple;
+  background-color: none;
+  border-color: purple;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn-outline-secondary:hover {
+  background-color: purple;
+  color: f2f2f1;
+  border-color: purple;
+}
+
+.main-weather-icon {
+  font-size: 60px;
+}
+
+.weather-icon {
+  font-size: 30px;
+}
+
+.high-and-low {
+  font-size: 13px;
+  color: #48484a;
+}
+
+.active {
+  color: #bb2253;
+  cursor: default;
+  text-decoration: none;
+}
+
+.active:hover {
+  text-decoration: none;
+  cursor: default;
+}
+
+.forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.forecast-date {
+  font-size: 16px;
+  color: #48484a;
+}
+
+.row {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+::selection {
+  color: white;
 }
